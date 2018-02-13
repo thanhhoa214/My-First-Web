@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+}
+/* .wrap {
+	
+} */
+/*Open Header*/
+.header {
+	background-color: #b9620c;
+	width:100%;
+	padding: 10px;
+}
+
+.header-content{
+	width:80%;
+	color: white;
+	margin:auto;
+}
+.header-content i{
+	margin-right: 10px;
+	margin-left: 20px;
+}
+/* Close Header */
+/*Open Menu*/
+.menu{
+	padding: 10px;
+	margin-left: 120px;
+	width:100%;
+}
+.menu ul{
+	list-style:none;
+}
+.logo-page, .menu-choose, .link{
+	float:left;
+	margin-left: auto;
+}
+.logo-page img{
+	width:200px;
+	height:100px;
+}
+.menu-choose{
+	width:45%;
+	margin-left: 20px;
+	padding-top:25px;
+}
+.menu-choose ul li a{
+	font: Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+}
+.menu-choose ul li.active a{
+	color:#F63;
+	font-weight: bold;
+}
+.menu-choose ul li, .link ul li{
+	margin-left:auto;
+	float:left;
+}
+.menu-choose ul li{
+	margin-left: 30px;
+}
+.link{
+	margin-top: 15px;
+	width:30%;
+}
+.link img{
+	width:40px;
+	height:40px;
+}
+/*Close Menu*/
+/*Open Slider*/
+.slider{
+	width: 100%;
+	height: 1080px;
+	background-image: url('image/river1k.jpg');
+	background-color: #b9620c;	
+}
+.slider-caption{
+	font-size: 35px;
+	color:white;
+	text-align: center;
+	padding-top: 20%;
+	padding-left: 200px;
+	margin-bottom: 30px;
+}
+.slider-social{
+	padding-left:38%;
+	text-align: center;
+	color: aliceblue;
+}
+.slider-social h1, .slider-social i{
+	float: left;
+	margin-left: 30px;
+}
+/*Close Slider*/
+/* Open AboutMe */
+.aboutme{
+	width: 100%;
+	background-color: #fcee89;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.aboutme-content{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.aboutme-content h1{
+	font-weight: bold;
+	color: rgb(236, 73, 95);
+	font-size: 70px;
+	font-family: 'Courier New', Courier, monospace;
+}
+.aboutme-content p{
+	width: 100%;
+}
+.aboutme-feature{
+	background-color: #fcee89;
+}
+.aboutme-feature p{
+	width: 90%;
+	height: 230px;
+	padding-left: 10px;
+	text-justify: distribute;	
+}
+.bestview, .affordable, .spacious, .building{
+	background-color: #fcee89;
+	float: left;
+	width: 24.2%;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+.aboutme i{
+	font-size: 50px;
+}
+/* Close AboutMe */
+/* Open FutureHome */
+.futurehome{
+	background-color: aquamarine;
+	padding: 1%;
+}
+.futurehome-img, .futurehome-info{
+	background-color: aquamarine;
+	float: left;
+	padding-left: 35px;
+}
+.futurehome-img{
+	width: 60%;
+}
+.futurehome-info{
+	width: 35%;
+	padding-left: 3%;
+}
+.futurehome-info h1{
+	font-size: 70px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-bottom: 20px;
+}
+.futurehome-content{
+	width: 100%;
+	font-size: 27px;
+	color:black;
+}
+.futurehome-content, .futurehome-information{
+	background-color: aquamarine;
+	margin-top: 20px;
+}
+.futurehome-information i, .futurehome-information span{
+	font-style: normal;
+	text-indent: 20px;
+	font-size: 25px;
+	padding: 15px;
+}
+.futurehome-information span{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+}
+
+/* Close FutureHome */
