@@ -4,6 +4,13 @@
 body {
 	margin: 0;
 }
+h1{
+	color: black;
+	font-weight: bold;
+	font-size: 70px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-bottom: 23px;
+}
 /* .wrap {
 	
 } */
@@ -78,6 +85,12 @@ body {
 	background-image: url('image/river1k.jpg');
 	background-color: #b9620c;	
 }
+.slider-caption h1{
+	color: gainsboro;
+	-webkit-text-stroke: rgb(19, 17, 16);
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-fill-color: snow;
+}
 .slider-caption{
 	font-size: 35px;
 	color:white;
@@ -91,9 +104,13 @@ body {
 	text-align: center;
 	color: aliceblue;
 }
-.slider-social h1, .slider-social i{
+.slider-social h2, .slider-social i{
 	float: left;
-	margin-left: 30px;
+	font-size: 35px;
+	color: azure;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 2px;	
+	margin-left: 40px;
 }
 /*Close Slider*/
 /* Open AboutMe */
@@ -110,7 +127,6 @@ body {
 .aboutme-content h1{
 	font-weight: bold;
 	color: rgb(236, 73, 95);
-	font-size: 70px;
 	font-family: 'Courier New', Courier, monospace;
 }
 .aboutme-content p{
@@ -157,13 +173,6 @@ body {
 	padding: 0 2%;
 	
 }
-.futurehome-info h1{
-	color: black;
-	font-weight: bold;
-	font-size: 70px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin-bottom: 23px;
-}
 .futurehome-content{
 	width: 100%;
 	font-size: 27px;
@@ -184,5 +193,13 @@ body {
 	font-size: 24px;
 	padding-left: 15px;
 }
-
 /* Close FutureHome */
+/* Open Team */
+.team-member div{
+	float: left;
+	width: 30%;
+}
+.team-member img{
+}
+
+/* Close Team */
