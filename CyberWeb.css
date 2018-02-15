@@ -195,11 +195,63 @@ h1{
 }
 /* Close FutureHome */
 /* Open Team */
-.team-member div{
+.team{
+	margin-left: 13%;
+	width: 80%;
+	padding-top: 30px;
+	text-align: center;
+ }
+.team-content{
+	margin-right: 9%;
+}
+.team-content p{
+	font-size: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: 30px 0;
+	letter-spacing: 3px;
+}
+.team-member{
+	margin-top: 70px;
+}
+.team-member-item{
 	float: left;
 	width: 30%;
 }
-.team-member img{
+.team-member-item img{
+	border: 3px;
+	border-style: solid;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-color: black;
+	max-width: 60%;
+	height: 300px;
 }
-
+.team-member-item h2{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 35px;
+	letter-spacing: 3px;
+	margin-bottom: -1px;
+}
+.team-member-item h3{
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	margin-bottom: 2px;
+}
+.line{
+	margin-left: 25%;
+	width: 50%;
+	height: 2px;
+	background-color: black;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+.team-member-item i{
+	font-size: 30px;
+	margin-left: 20px;
+	color: skyblue;
+}
 /* Close Team */
