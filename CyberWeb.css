@@ -196,26 +196,32 @@ h1{
 /* Close FutureHome */
 /* Open Team */
 .team{
-	margin-left: 13%;
-	width: 80%;
+	margin-left: auto;
+	width: 100%;
 	padding-top: 30px;
 	text-align: center;
  }
-.team-content{
-	margin-right: 9%;
+.team, .team-content, .team-member-item{
+	background-color: #f9ead7;
 }
-.team-content p{
-	font-size: 20px;
+.para{
+	font-size: 25px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	margin: 30px 0;
 	letter-spacing: 3px;
+	color: rgb(219, 149, 57);
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 0.5px;
 }
+
 .team-member{
-	margin-top: 70px;
+	width: 100%;
+	margin: auto;
+	padding-top: 70px;
 }
 .team-member-item{
 	float: left;
-	width: 30%;
+	width: 33.33%;
 }
 .team-member-item img{
 	border: 3px;
@@ -226,8 +232,8 @@ h1{
 	-o-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-color: black;
-	max-width: 60%;
-	height: 300px;
+	max-width: 40%;
+	height: 250px;
 }
 .team-member-item h2{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -252,6 +258,33 @@ h1{
 .team-member-item i{
 	font-size: 30px;
 	margin-left: 20px;
-	color: skyblue;
+	color: rgb(13, 146, 199);
+	padding-bottom: 40px;
 }
 /* Close Team */
+/* Open Customer */
+.customerfb{
+	width: 100%;
+	height: 1000px;
+	padding-top: 40px;
+	background-image: url("image/cool-background.jpg");
+}
+.customerfb-content, .customer{
+	width: 80%;
+	margin: auto;
+}
+.customerfb-content{
+	text-align: center;
+}
+.customer-each{
+	float: left;
+	margin: auto;
+	max-width: 30%;
+	padding-left: 20px;
+}
+.customer-literal{
+	background-color: white;
+	
+}
+
+/* Close Customer */
