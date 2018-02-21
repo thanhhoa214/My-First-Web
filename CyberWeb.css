@@ -25,9 +25,6 @@ h1{
 	clear: both;
 }
 /* Close Reused code */
-/* .wrap {
-	
-} */
 /*Open Header*/
 .header {
 	background-color: #b9620c;
@@ -63,13 +60,14 @@ h1{
 	height:100px;
 }
 .menu-choose{
-	width:45%;
+	width:60%;
 	margin-left: 20px;
 	padding-top:25px;
 }
 .menu-choose ul li a{
 	font: Tahoma, Geneva, sans-serif;
-	text-decoration:none;
+	font-size: 30px;
+	text-decoration: none;
 	font-weight:bold;
 }
 .menu-choose ul li.active a{
@@ -83,9 +81,17 @@ h1{
 .menu-choose ul li{
 	margin-left: 30px;
 }
+.menu-choose ul li a:hover{
+	color:rgb(22, 231, 134);
+	font-weight: bold;
+}
+.menu-choose ul li a:active{
+	color:#F63;
+	font-weight: bold;
+}
 .link{
 	margin-top: 15px;
-	width:30%;
+	width:20%;
 }
 .link img{
 	width:40px;
@@ -170,12 +176,13 @@ h1{
 /* Open FutureHome */
 .futurehome{
 	width: 100%;
-	min-height: 600px;
+	min-height: 530px;
 	background-color: aquamarine;
 }
 .futurehome-img{
 	width: 60%;
 	float: left;
+	margin-top: 2%;
 }
 .futurehome-img, .futurehome-info{
 	background-color: aquamarine;
@@ -359,7 +366,7 @@ h1{
 .footer{
 	color: rgb(255, 255, 214);
 	font-family: 'Courier New', Courier, monospace;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 	width: 100%;
 	background-image: url("image/footer.png");
@@ -410,9 +417,9 @@ h1{
 .details-item{
 	padding: 2% 0;
 }
-.details-item a span{
+.details-item a{
 	color: white;
-	text-decoration: underline;
+	text-decoration: none;
 }
 /* Close Footer */
 /* Create breakline */
